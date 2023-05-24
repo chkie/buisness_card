@@ -1,0 +1,120 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    
+    
+}
+
+.avatar {
+    width: 150px;
+    border: 4px solid #ffa69e;
+    border-radius: 10px;
+    
+   
+  
+    
+    
+}
+
+.avatar:hover {
+    animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+    20%,50%,80%,to{
+        transform: translateY(0);
+}
+40%{
+    transform: translateY(-30px);
+}
+70%{
+    transform: translateY(-15px);
+}
+90%{
+    transform: translateY(-4px);
+    }
+}
+
+.cardborder {
+    
+    border-bottom: 4px solid #ffa69e;
+    border-right: 4px solid #ffa69e;
+    border-radius: 10px;
+    animation-name: cardborder;
+    animation-duration: 10s;
+}
+
+
+@keyframes cardborder {
+  from {border-color: #d8f3dc;}
+  to {border-color: #ffa69e;}
+}
+
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #d8f3dc;
+    color: #2b2839;
+    box-shadow: 5px 5px 5px grey;
+    animation-name: cardbackground;
+    animation-duration: 10s;
+        
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+@keyframes cardbackground {
+  from {background-color: #ffa69e;}
+  to {background-color: #d8f3dc;}
+}
+
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.card-text {
+    
+    margin: auto 0px auto 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-left: 2px solid #2b2839;
+    border-top: 2px solid #2b2839;
+    border-top-left-radius: 10px;
+    padding-left: 20px;
+    text-shadow: 1px 1px 5px grey;
+    
+    
+   
+    
+}
+
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
